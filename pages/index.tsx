@@ -51,6 +51,9 @@ const Home: NextPage = () => {
             </p>
           </a>
         </div>
+        <div>
+          <button onClick={(e) => {throw new Error('Error')}}>error</button>
+        </div>
       </main>
 
       <footer className={styles.footer}>
